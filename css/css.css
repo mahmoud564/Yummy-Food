@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loading-screen2 {
+  display: flex;
+  z-index: 999;
+}
+
+.loading-screen {
+  display: flex;
+  z-index: 2;
+}
+.icon {
+  left: -12px;
+}
+i {
+  cursor: pointer;
+}
+body {
+  overflow: visible;
+  color: #f9f6f6;
+  background-color: #0d0d0d;
+}
+.link ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: 8px 0;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  top: 300px;
+  transition: 0.5s;
+}
+ul {
+  padding-left: 0;
+}
+.imglogo {
+  width: 50px;
+}
+.meal {
+  cursor: pointer;
+}
+.leyar {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f6f6ca;
+  top: 150%;
+  transition: 0.5s;
+}
+.meal:hover .leyar {
+  top: 0;
+}
+.Searsh input::placeholder {
+  color: #6c757d;
+}
+.icon i {
+  position: absolute;
+  left: 24px;
+  top: -16px;
+}
+.SaideBar {
+  z-index: 50;
+  background-color: #0d0d0d;
+  display: none;
+}
